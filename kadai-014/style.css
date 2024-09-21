@@ -1,23 +1,47 @@
 body {
     font-family: "Arial", "Meiryo", sans-serif;
   } 
-.google-fonts 
-{ font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;}
+  .GoogleFonts {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 }
      html{font-size: 20px;
         text-align: center; }
 
-     h1{font-size: 2em;
-        letter-spacing: 1.2em; 
-    text-shadow: 2px 2px 3px gray;
-    text-decoration: underline 3px rgb(115,115,114);}
+        h1 {
+          font-family: 'Josefin Sans', sans-serif;
+          font-size: 2rem;
+          letter-spacing: 1.2em;
+          text-shadow: 2px 2px 3px gray;
+          
+      }
+      .underline {
+        position: relative;
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+      }
+      
+      .underline::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -5px; /* 下線を文字の下に配置する距離を調整 */
+        height: 3px; /* 下線の太さ */
+        background-color: #737373; /* 下線の色 */
+      }
+      
+      .highlight {s
+        color: skyblue;
+      }
+      
+
      
  .highlight{color:skyblue}
  .midlight{color:rgb(255, 192, 203)}
  .deco1{color:skyblue}
  .deco2{color:rgb(255, 192, 203)}
-
+s
  #parent > p {font-weight: bold ; }

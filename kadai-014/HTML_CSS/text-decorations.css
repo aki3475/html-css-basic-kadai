@@ -1,0 +1,18 @@
+.decoration {
+    /* ここにCSSを書いていきます */
+    font-size: 16px;
+    color: rgba(160, 71, 138, 0.529);
+    font-weight: bold;
+    font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic";
+   font-style: italic;
+ line-height: 4.5;
+ letter-spacing: 1.5em;
+text-decoration:line-through;
+ border-top: solid 3px red;
+border-bottom: dotted 3px blue;
+text-align: center;
+
+.text-bold{font-weight: bold;}
+}
+
+  }
